@@ -1,0 +1,113 @@
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    margin: 30px 0px 40px 0px;
+    display:inline-block;
+    text-align: center;
+}
+
+/* nav */
+nav{
+    align-items: center;
+    width: 40%;
+    float: right;
+}
+nav > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+}
+nav > ul > li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+nav > ul > li > a:link{
+    color:green;
+}
+nav > ul > li > a:visited{
+    color: orange;
+}
+
+/* div */
+div{
+    padding-bottom: 20px;
+}
+#a{
+    float: left;
+    padding-right: 5px;
+}
+div > h3{
+    float: center;
+}
+div > p{
+    float: center;
+}
+#b{
+    float: right;
+}
+/* section */
+section {
+    clear: both;
+    width: 71%;
+    margin-right: 1%;
+}
+section > h3 {
+    font-size: 1.4em;
+    color: green;
+}
+section > article > img{
+    float: left;
+    margin-right: 10px;
+}
+section > article > h3 {
+    width: 62%;
+    font-size: 1.4em;
+    color: green;
+    float: center;
+}
+section > article > p {
+    width: 62%;
+    font-size: 0.7em;
+    line-height: 1.7;
+    float: center;
+}
+section > table {
+    text-align: center;
+}
+.d{
+    text-align: center;
+}
+/* aside */
+aside{
+    width:25%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: right;
+}
+aside > h3 {
+    font-size: 1.4em;
+}
+#c{
+    font-size: 1.2em;
+}
+aside > p {
+    font-size: 0.7em;
+    line-height:1.7;
+}
+aside > ol > li {
+    font-size: 0.7em;
+    line-height:1.7;
+
+}
+aside ul > li {
+    font-size: 0.7em;
+    line-height:1.7;
+
+}
+/* footer */
+
